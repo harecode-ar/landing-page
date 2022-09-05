@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-green: #04c8c8;
+  --color-yellow: #ffc700;
+  --color-orange: #fe621d;
+  --color-red: #f1416c;
+  --color-purple: #7239ea;
+  --color-blue: #009ef7;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+svg {
+  animation: color-change 15s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: var(--color-green);
+  }
+  16% {
+    color: var(--color-yellow);
+  }
+  32% {
+    color: var(--color-orange);
+  }
+  48% {
+    color: var(--color-red);
+  }
+  64% {
+    color: var(--color-purple);
+  }
+  80% {
+    color: var(--color-blue);
+  }
+  100% {
+    color: var(--color-green);
+  }
+}
