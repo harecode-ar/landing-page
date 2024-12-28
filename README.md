@@ -1,3 +1,3 @@
-# harecode
+# harecode - landing page
 
--> [https://harecode.com.ar](https://harecode.com.ar).
+-> [https://harecode.ar](https://harecode.ar).
